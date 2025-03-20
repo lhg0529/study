@@ -1,10 +1,12 @@
+import { RealtimeTextDemo } from 'components/three'
 import './App.css'
-import Composition from 'component/composition/Composition'
+import Composition from 'components/composition/Composition'
 
 function App() {
   return (
     <>
-      <Composition />
+      {/* <Composition /> */}
+      <RealtimeTextDemo />
     </>
   )
 }

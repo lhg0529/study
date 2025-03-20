@@ -9,16 +9,14 @@ export default defineConfig({
     open: true,
   },
   resolve: {
-    alias: [
-      { find: 'component', replacement: '/src/component' }
-    ]
+    alias: [{ find: 'components', replacement: '/src/components' }],
   },
   css: {
     preprocessorOptions: {
       scss: {
         // Carbon 설정을 위한 SASS 옵션
-        quietDeps: true
-      }
-    }
-  }
+        quietDeps: true,
+      },
+    },
+  },
 })
