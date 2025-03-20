@@ -1,0 +1,21 @@
+# 빌드 산출물
+dist
+build
+
+# 의존성 디렉토리
+node_modules
+
+# 로그 파일
+*.log
+
+# 락 파일
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# 환경 변수 파일
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local 
